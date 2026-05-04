@@ -1,3 +1,36 @@
 body {
-    background-image: url("ScenarioWindow_TMP_long.png");
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-height: 1000px;
+    height: auto;
+    z-index: -1;
+}
+
+.scenario-container {
+    position: relative;
+    top: 20%;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    * {
+        position: relative;
+        padding-top: 5%;
+        text-align: center;
+        z-index: 1;
+        color: white;
+    }
 }
