@@ -1,0 +1,20 @@
+{
+  "name": "orvfanatic.github.io",
+  "version": "1.0.0",
+  "description": "Gaby and Yasser's Birthday Party Website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orvfanatic/orvfanatic.github.io.git"
+  },
+  "author": "Yasser Maliki, Mia Matsumoto-Depatie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orvfanatic/orvfanatic.github.io/issues"
+  },
+  "homepage": "https://github.com/orvfanatic/orvfanatic.github.io#readme"
+}
