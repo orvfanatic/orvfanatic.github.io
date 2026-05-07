@@ -40,6 +40,11 @@ img {
         z-index: 1;
         color: white;
     }
+
+    .timer {
+        padding-top: 0;
+        margin-top: 0;
+    }
 }
 
 p {
