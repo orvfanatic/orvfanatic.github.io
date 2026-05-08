@@ -71,6 +71,26 @@ body {
         margin-bottom: 15px;
         font-size: 1.2em;
     }
+
+    img {
+        display: block;
+        position: absolute;
+        margin: 0 auto;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        max-height: 600px;
+        z-index: -1;
+    }
+
+    .super-creek-low-cortisol-dancing-gif {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        max-width: 300px;
+        opacity: 0.8;
+    }
 }
 
 /*mobile*/
@@ -119,6 +139,6 @@ body {
 
 @media (max-width: 385px) {
     .scenario-container {
-        top: -5%;
+        /* top: -5%; */
     }
 }
