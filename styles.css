@@ -124,21 +124,11 @@ body {
 
 @media (max-width: 430px) {
 
-    .scenario-container {
-        /* top: -15%; */
-    }
-
     h1 {
         font-size: 1.0em;
     }
 
     p {
         font-size: 0.8em;
-    }
-}
-
-@media (max-width: 385px) {
-    .scenario-container {
-        /* top: -5%; */
     }
 }
