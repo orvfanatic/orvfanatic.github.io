@@ -14,7 +14,8 @@ body {
     background-color: black;
 }
 
-img {
+/* img {
+    display: block;
     position: absolute;
     top: 0;
     left: 0;
@@ -22,33 +23,53 @@ img {
     height: auto;
     max-height: 1000px;
     z-index: -1;
+} */
+
+.scenario-card {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    /* background-image: url("ScenarioWindow_TMP_long.png") top center / 100% 100% no-repeat; */
 }
 
 .scenario-container {
-    position: relative;
-    top: 8%;
-    width: fit-content;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 12% 8%;
+    box-sizing: border-box;
+    overflow-y: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
 
     * {
-        position: relative;
-        padding-top: 2%;
-        text-align: center;
+        /* position: relative;
+        padding-top: 2%; */
         z-index: 1;
         color: white;
+    }
+
+    h1 {
+        margin-top: 15%;
+        font-size: 3.5em;
+        text-align: center;
+    }
+
+    p {
+        margin-left: 10%;
+        font-size: 1.2em;
+        text-align: left;
     }
 
     .timer {
         padding-top: 0;
         margin-top: 0;
+        margin-bottom: 15px;
+        font-size: 1.2em;
     }
-}
-
-p {
-    font-size: 1.2em;
 }
 
 /*mobile*/
@@ -83,7 +104,7 @@ p {
 @media (max-width: 430px) {
 
     .scenario-container {
-        top: -15%;
+        /* top: -15%; */
     }
 
     h1 {
